@@ -162,6 +162,10 @@ aside .head h3 {
 .temperature .details {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.temperature .details #description {
+  text-transform: capitalize;
 }
 
 /* Chance of Rain */

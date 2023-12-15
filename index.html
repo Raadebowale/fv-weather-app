@@ -33,25 +33,25 @@
                   </div>
                   <div class="details">
                     <p>Wind Speed</p>
-                    <h2>12km/h</h2>
+                    <h2><span id="wind-speed">12</span>km/h</h2>
                   </div>
-                  <div class="change-rate">
+                  <!-- <div class="change-rate">
                     <i class="fa-solid fa-caret-down"></i>
                     <p>2km/h</p>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="card">
                   <div class="icon">
-                    <i class="fa-solid fa-cloud-rain"></i>
+                    <i class="fa-solid fa-arrows-turn-right"></i>
                   </div>
                   <div class="details">
-                    <p>Rain Chanse</p>
-                    <h2>24%</h2>
+                    <p>Wind Degree</p>
+                    <h2><span id="wind-deg">24</span>&deg;</h2>
                   </div>
-                  <div class="change-rate">
+                  <!--  <div class="change-rate">
                     <i class="fa-solid fa-caret-up"></i>
                     <p>10%</p>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="row">
@@ -61,30 +61,30 @@
                   </div>
                   <div class="details">
                     <p>Pressure</p>
-                    <h2>720 hpa</h2>
+                    <h2><span id="pressure">720</span> hpa</h2>
                   </div>
-                  <div class="change-rate">
+                  <!-- <div class="change-rate">
                     <i class="fa-solid fa-caret-up"></i>
                     <p>32 hpa</p>
-                  </div>
+                  </div> -->
                 </div>
                 <div class="card">
                   <div class="icon">
-                    <i class="fa-solid fa-sun"></i>
+                    <i class="fa-solid fa-droplet"></i>
                   </div>
                   <div class="details">
-                    <p>UV Index</p>
-                    <h2>2.3</h2>
+                    <p>Humidity</p>
+                    <h2><span id="humidity">2.3</span></h2>
                   </div>
-                  <div class="change-rate">
+                  <!-- <div class="change-rate">
                     <i class="fa-solid fa-caret-down"></i>
                     <p>0.3</p>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
-          <div class="average">
+          <!--  <div class="average">
             <div class="head">
               <h3>Average Weekly Temperature</h3>
             </div>
@@ -134,27 +134,27 @@
                 });
               </script>
             </div>
-          </div>
+          </div> -->
         </div>
       </main>
       <aside>
         <div class="location-time">
           <div class="location">
-            <h2>Lorem Ipsum</h2>
-            <p>dolor set at</p>
+            <h2 id="location">Lorem Ipsum</h2>
+            <p id="weather">dolor set at</p>
           </div>
-          <div><p class="time">02:53 PM</p></div>
+          <div><p class="time" id="time">02:53 PM</p></div>
         </div>
         <div class="temperature">
           <div>
             <i class="fa-solid fa-cloud"></i>
           </div>
           <div class="details">
-            <h2>20&deg; C</h2>
-            <p>Dramatic Cloudy</p>
+            <h2><span id="temperature">20</span>&deg; C</h2>
+            <p id="description">Dramatic Cloudy</p>
           </div>
         </div>
-        <div class="chance-rain">
+        <!-- <div class="chance-rain">
           <div class="head">
             <h3>Chance of rain</h3>
           </div>
@@ -188,7 +188,7 @@
               <p>72%</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="rise-set-time">
           <div class="head">
             <h3>Sunrise & Sunset</h3>
@@ -198,20 +198,20 @@
               <div class="icon"><i class="fa-solid fa-sun"></i></div>
               <div class="details">
                 <p>Sunrise</p>
-                <h3>4:20 AM</h3>
+                <h3 id="sunrise">4:20 AM</h3>
               </div>
               <div class="time">
-                <p>4 hours ago</p>
+                <p id="last-sunrise">4 hours ago</p>
               </div>
             </div>
             <div class="card">
               <div class="icon"><i class="fa-solid fa-cloud-moon"></i></div>
               <div class="details">
                 <p>Sunset</p>
-                <h3>5:50 PM</h3>
+                <h3 id="sunset">5:50 PM</h3>
               </div>
               <div class="time">
-                <p>in 9 hours</p>
+                <p id="next-sunset">in 9 hours</p>
               </div>
             </div>
           </div>
